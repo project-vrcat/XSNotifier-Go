@@ -1,0 +1,6 @@
+*.exe
+*.exe~
+bin/
+
+.idea/
+.vacode/
