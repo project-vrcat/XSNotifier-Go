@@ -20,7 +20,7 @@ func main() {
 		n.Send(xsn.Message{
 			Timeout:   3,
 			Title:     "Example Notification!",
-			Content:   time.Now().String(),
+			Content:   time.Now().Format("2006-01-02 15:04:05"),
 			SourceApp: "XSOverlay_Example_UDP",
 			AudioPath: xsn.Audio_Default,
 		})
